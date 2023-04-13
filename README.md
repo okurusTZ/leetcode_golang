@@ -1,8 +1,8 @@
 ### 20230414
-1. # ****[2280. 表示一个折线图的最少线段数](https://leetcode.cn/problemsminimum-lines-to-represent-a-line-chart/)****
-2. # ****[2404. 出现最频繁的偶数元素](https://leetcode.cn/problems/most-frequent-even-element/)****
-3. # ****[72. 编辑距离](https://leetcode.cn/problems/edit-distance/)****
-4. # ****[1143. 最长公共子序列](https://leetcode.cn/problems/longest-common-subsequence/)****
+1. [2280. 表示一个折线图的最少线段数](https://leetcode.cn/problems/minimum-lines-to-represent-a-line-chart/)
+2. [2404. 出现最频繁的偶数元素](https://leetcode.cn/problems/most-frequent-even-element/)
+3. [72. 编辑距离](https://leetcode.cn/problems/edit-distance/)
+4. [1143. 最长公共子序列](https://leetcode.cn/problems/longest-common-subsequence/)
 
 
 
