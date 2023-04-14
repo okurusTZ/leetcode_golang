@@ -24,8 +24,8 @@ func reverseList(head *ListNode) *ListNode {
 		// 存储下一个节点
 		next := current.Next
 		current.Next = prev
-		prev = current
-		current = next
+		prev = current // 这里prev指向末尾
+		current = next // current指向nil
 	}
 
 	return prev
