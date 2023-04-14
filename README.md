@@ -2,6 +2,7 @@
 1. [1023. 驼峰式匹配](https://leetcode.cn/problems/camelcase-matching/)
 2. [2281. 巫师的总力量和](https://leetcode.cn/problems/sum-of-total-strength-of-wizards/)
 3. [496. 下一个更大元素 I](https://leetcode.cn/problems/next-greater-element-i/)
+4. [206. 翻转链表](https://leetcode.cn/problems/reverse-linked-list/submissions/)
 
 
 ### 20230413
