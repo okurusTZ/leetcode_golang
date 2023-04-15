@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// 【猪脑过载】
+
 // 对于nums2来说，先获取单调栈，再存map，到nums1里找
 func nextGreaterElement(nums1 []int, nums2 []int) []int {
 
