@@ -1,3 +1,10 @@
+
+### 20230415
+1. [876. 链表的中间结点](https://leetcode.cn/problems/middle-of-the-linked-list/)
+2. [141. 环形链表](https://leetcode.cn/problems/linked-list-cycle/)
+3. [142. 环形链表 II](https://leetcode.cn/problems/linked-list-cycle-ii/)
+
+
 ### 20230414
 1. [1023. 驼峰式匹配](https://leetcode.cn/problems/camelcase-matching/)
 2. [2281. 巫师的总力量和](https://leetcode.cn/problems/sum-of-total-strength-of-wizards/)
