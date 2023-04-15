@@ -6,6 +6,7 @@
 4. [143. 重排链表](https://leetcode.cn/problems/reorder-list/)
 5. [1042. 不邻接植花](https://leetcode.cn/problems/flower-planting-with-no-adjacent/)
 6. [234. 回文链表](https://leetcode.cn/problems/palindrome-linked-list/)
+7. [456. 132 模式](https://leetcode.cn/problems/132-pattern/)
 
 
 ### 20230414
