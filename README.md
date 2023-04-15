@@ -5,6 +5,7 @@
 3. [142. 环形链表 II](https://leetcode.cn/problems/linked-list-cycle-ii/)
 4. [143. 重排链表](https://leetcode.cn/problems/reorder-list/)
 5. [1042. 不邻接植花](https://leetcode.cn/problems/flower-planting-with-no-adjacent/)
+6. [234. 回文链表](https://leetcode.cn/problems/palindrome-linked-list/)
 
 
 ### 20230414
