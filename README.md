@@ -3,6 +3,8 @@
 1. [876. 链表的中间结点](https://leetcode.cn/problems/middle-of-the-linked-list/)
 2. [141. 环形链表](https://leetcode.cn/problems/linked-list-cycle/)
 3. [142. 环形链表 II](https://leetcode.cn/problems/linked-list-cycle-ii/)
+4. [143. 重排链表](https://leetcode.cn/problems/reorder-list/)
+5. [1042. 不邻接植花](https://leetcode.cn/problems/flower-planting-with-no-adjacent/)
 
 
 ### 20230414
