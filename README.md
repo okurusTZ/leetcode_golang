@@ -1,8 +1,8 @@
 ### 20230416
-1.[1019. 链表中的下一个更大节点](https://leetcode.cn/problems/next-greater-node-in-linked-list/)
-2.[901. 股票价格跨度](https://leetcode.cn/problems/online-stock-span/)
-3.[739. 每日温度](https://leetcode.cn/problems/daily-temperatures/)
-4.[2. 两数相加](https://leetcode.cn/problems/add-two-numbers/)
+1. [1019. 链表中的下一个更大节点](https://leetcode.cn/problems/next-greater-node-in-linked-list/)
+2. [901. 股票价格跨度](https://leetcode.cn/problems/online-stock-span/)
+3. [739. 每日温度](https://leetcode.cn/problems/daily-temperatures/)
+4. [2. 两数相加](https://leetcode.cn/problems/add-two-numbers/)
 
 
 ### 20230415
