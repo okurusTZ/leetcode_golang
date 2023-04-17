@@ -1,3 +1,13 @@
+
+### 20230417
+1. [226. 翻转二叉树](https://leetcode.cn/problems/invert-binary-tree/)
+2. [199. 二叉树的右视图](https://leetcode.cn/problems/binary-tree-right-side-view/)
+3. [110. 平衡二叉树](https://leetcode.cn/problems/balanced-binary-tree/)
+4. [101. 对称二叉树](https://leetcode.cn/problems/symmetric-tree/)
+5. [100. 相同的树](https://leetcode.cn/problems/same-tree/)
+6. [2409. 统计共同度过的日子数](https://leetcode.cn/problems/count-days-spent-together/)
+7. [6333. 查询网格图中每一列的宽度](https://leetcode.cn/problems/find-the-width-of-columns-of-a-grid/)
+
 ### 20230416
 1. [1019. 链表中的下一个更大节点](https://leetcode.cn/problems/next-greater-node-in-linked-list/)
 2. [901. 股票价格跨度](https://leetcode.cn/problems/online-stock-span/)
