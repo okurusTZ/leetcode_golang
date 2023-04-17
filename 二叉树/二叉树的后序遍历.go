@@ -1,4 +1,4 @@
-package main
+package binary_tree
 
 func postorderTraversal(root *TreeNode) []int {
 	stack := make([]*TreeNode, 0)

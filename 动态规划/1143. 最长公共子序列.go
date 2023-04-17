@@ -1,4 +1,4 @@
-package main
+package dynamic_programing
 
 func longestCommonSubsequence(text1 string, text2 string) int {
 	n := len(text1)

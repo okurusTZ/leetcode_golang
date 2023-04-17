@@ -7,6 +7,8 @@
 5. [100. 相同的树](https://leetcode.cn/problems/same-tree/)
 6. [2409. 统计共同度过的日子数](https://leetcode.cn/problems/count-days-spent-together/)
 7. [6333. 查询网格图中每一列的宽度](https://leetcode.cn/problems/find-the-width-of-columns-of-a-grid/)
+8. [236. 二叉树的最近公共祖先](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/)
+9. [235. 二叉搜索树的最近公共祖先](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-search-tree/)
 
 ### 20230416
 1. [1019. 链表中的下一个更大节点](https://leetcode.cn/problems/next-greater-node-in-linked-list/)

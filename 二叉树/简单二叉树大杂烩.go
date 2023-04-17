@@ -60,20 +60,6 @@ func isBalanced(root *TreeNode) bool {
 	return getHeight(root) != -1
 }
 
-func abs(a, b int) int {
-	if a > b {
-		return a - b
-	}
-	return b - a
-}
-
-func max(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
-}
-
 // 翻转二叉树
 func invertTree(root *TreeNode) *TreeNode {
 

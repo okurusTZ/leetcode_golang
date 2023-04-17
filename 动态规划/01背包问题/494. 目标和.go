@@ -1,4 +1,4 @@
-package main
+package dynamic_programing
 
 func main() {
 	println(findTargetSumWays([]int{1, 1, 1, 1, 1}, 3))
