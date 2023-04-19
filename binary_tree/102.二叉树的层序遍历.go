@@ -51,30 +51,6 @@ func levelOrder(root *TreeNode) [][]int {
 	return ans
 }
 
-type Queue []*TreeNode
-
-func (q *Queue) Push(v *TreeNode) {
-	*q = append(*q, v)
-}
-
-func (q *Queue) Pop() *TreeNode {
-	head := (*q)[0]
-	if len(*q) >= 1 {
-		*q = (*q)[1:]
-	} else {
-		*q = Queue{}
-	}
-	return head
-}
-
-func (q *Queue) IsEmpty() bool {
-	return len(*q) == 0
-}
-
-func (q *Queue) Length() int {
-	return len(*q)
-}
-
 // 广度优先搜索
 func levelOrder2(root *TreeNode) [][]int {
 	if root == nil {
@@ -91,7 +67,8 @@ func levelOrder2(root *TreeNode) [][]int {
 		length := q.Length()
 		ans = append(ans, []int{})
 		for i := 0; i < length; i++ {
-			node := q.Pop()
+			tmp := q.Pop()
+			node := tmp.(*TreeNode)
 			ans[len(ans)-1] = append(ans[len(ans)-1], node.Val)
 			if node.Left != nil {
 				q.Push(node.Left)

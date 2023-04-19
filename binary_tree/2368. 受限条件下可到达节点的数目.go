@@ -27,7 +27,7 @@ func reachableNodes(n int, edges [][]int, restricted []int) int {
 	ans := 1
 
 	for q.Length() != 0 {
-		node := q.Pop()
+		node := q.Pop().(int)
 
 		for _, y := range g[node] {
 
