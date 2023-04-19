@@ -1,4 +1,12 @@
 
+### 20230419
+1. [2368. 受限条件下可到达节点的数目](https://leetcode.cn/problems/reachable-nodes-with-restrictions/)
+2. [2367. 算术三元组的数目](https://leetcode.cn/problems/number-of-arithmetic-triplets/)
+3. [1043. 分隔数组以得到最大和](https://leetcode.cn/problems/partition-array-for-maximum-sum/)
+4. [300. 最长递增子序列](https://leetcode.cn/problems/longest-increasing-subsequence/)
+
+
+
 ### 20230418
 1. [513. 找树左下角的值](https://leetcode.cn/problems/find-bottom-left-tree-value/)
 2. [103. 二叉树的锯齿形层序遍历](https://leetcode.cn/problems/binary-tree-zigzag-level-order-traversal/)
