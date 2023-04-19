@@ -49,6 +49,6 @@ func Max(a, b int) int {
 	return b
 }
 
-func main() {
-	fmt.Println(bestTeamScore([]int{1, 1, 1, 1, 1}, []int{88, 89, 12, 39, 2}))
-}
+// func main() {
+// 	fmt.Println(bestTeamScore([]int{1, 1, 1, 1, 1}, []int{88, 89, 12, 39, 2}))
+// }

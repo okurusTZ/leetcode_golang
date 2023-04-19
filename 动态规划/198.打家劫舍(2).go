@@ -1,7 +1,5 @@
 package dynamic_programing
 
-import "fmt"
-
 // 回溯+存储
 func rob(nums []int) int {
 
@@ -26,6 +24,6 @@ func max(a, b int) int {
 	return b
 }
 
-func main() {
-	fmt.Println(rob([]int{2, 7, 9, 3, 1}))
-}
+// func main() {
+// 	fmt.Println(rob([]int{2, 7, 9, 3, 1}))
+// }

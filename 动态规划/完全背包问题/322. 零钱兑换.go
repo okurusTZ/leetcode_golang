@@ -68,6 +68,6 @@ func min(a, b int) int {
 	return b
 }
 
-func main() {
-	println(coinChange([]int{2, 5, 10, 1}, 27))
-}
+// func main() {
+// 	println(coinChange([]int{2, 5, 10, 1}, 27))
+// }

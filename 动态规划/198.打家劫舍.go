@@ -28,13 +28,14 @@ func dfs(i int, nums, list []int) int {
 	return res
 }
 
-func max(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
-}
+// func max(a, b int) int {
+// 	if a > b {
+// 		return a
+// 	}
+// 	return b
+// }
 
 func main() {
-	fmt.Println(rob([]int{2, 7, 9, 3, 1}))
+	// fmt.Println(rob([]int{2, 7, 9, 3, 1}))
+	fmt.Println(lengthOfLIS([]int{10, 9, 2, 5, 3, 7, 101, 18}))
 }

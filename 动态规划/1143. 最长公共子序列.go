@@ -44,9 +44,9 @@ func max(a, b int) int {
 	return b
 }
 
-func main() {
-	var t1 = "pmjghexybyrgzczy"
-	var t2 = "hafcdqbgncrcbihkd"
+// func main() {
+// 	var t1 = "pmjghexybyrgzczy"
+// 	var t2 = "hafcdqbgncrcbihkd"
 
-	println(longestCommonSubsequence(t1, t2))
-}
+// 	println(longestCommonSubsequence(t1, t2))
+// }
