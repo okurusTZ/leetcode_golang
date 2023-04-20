@@ -29,7 +29,7 @@ func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
 // 找二叉搜索树的公共祖先
 // 利用二叉搜索树性质 left < root < right
 
-func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
+func lowestCommonAncestor2(root, p, q *TreeNode) *TreeNode {
 
 	if root == nil || root == p || root == q {
 		return root

@@ -1,5 +1,7 @@
 package dynamic_programing
 
+import "leetcode_golang/library"
+
 func maxProfitii(prices []int) int {
 	var dp = make([][]int, len(prices))
 
@@ -15,9 +17,9 @@ func maxProfitii(prices []int) int {
 	for i := 1; i < len(prices); i++ {
 
 		// 持有
-		dp[i][0] += max(dp[i-1][0], dp[i-1][1]-prices[i])
+		dp[i][0] += library.Max(dp[i-1][0], dp[i-1][1]-prices[i])
 		// 不持有
-		dp[i][1] += max(dp[i-1][1], dp[i-1][0]+prices[i])
+		dp[i][1] += library.Max(dp[i-1][1], dp[i-1][0]+prices[i])
 	}
 
 	return dp[len(prices)-1][1]

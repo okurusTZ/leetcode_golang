@@ -1,5 +1,11 @@
 package binary_tree
 
+// type TreeNode struct {
+// 	Val   int
+// 	Left  *TreeNode
+// 	Right *TreeNode
+// }
+
 func postorderTraversal(root *TreeNode) []int {
 	stack := make([]*TreeNode, 0)
 	val := make([]int, 0)
@@ -41,8 +47,8 @@ func postOrderRecur(head *TreeNode) (res []int) {
 		return res
 	}
 	res = make([]int, 0)
-	preOrderRecur(head.Right)
-	preOrderRecur(head.Left)
+	postOrderRecur(head.Right)
+	postOrderRecur(head.Left)
 	res = append(res, head.Val)
 	return res
 }

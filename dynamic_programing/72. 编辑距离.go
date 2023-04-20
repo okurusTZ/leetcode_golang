@@ -1,5 +1,7 @@
 package dynamic_programing
 
+import "leetcode_golang/library"
+
 // 思路，对比两个字符串的时候
 // abc
 // bb
@@ -41,15 +43,8 @@ func minDistance(word1 string, word2 string) int {
 			return dfs(i-1, j-1)
 		}
 
-		return min(min(dfs(i-1, j-1), dfs(i, j-1)), dfs(i-1, j)) + 1
+		return library.Min(library.Min(dfs(i-1, j-1), dfs(i, j-1)), dfs(i-1, j)) + 1
 	}
 
 	return dfs(m-1, n-1)
-}
-
-func min(a, b int) int {
-	if a < b {
-		return a
-	}
-	return b
 }

@@ -1,5 +1,7 @@
 package dynamic_programing
 
+import "leetcode_golang/library"
+
 func maxSumAfterPartitioning(arr []int, k int) int {
 	var dp func(int) int
 	var memo = make([]int, len(arr))
@@ -23,9 +25,9 @@ func maxSumAfterPartitioning(arr []int, k int) int {
 		// i-k = j最远可以遍历到的地方
 		for j := i; j > i-k && j >= 0; j-- {
 			// 获取遍历到的最大值
-			m = max(arr[j], m)
+			m = library.Max(arr[j], m)
 			//
-			res = max(res, dp(j-1)+(i-j+1)*m)
+			res = library.Max(res, dp(j-1)+(i-j+1)*m)
 		}
 
 		memo[i] = res

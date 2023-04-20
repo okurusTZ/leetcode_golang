@@ -24,7 +24,7 @@ func findBottomLeftValue(root *TreeNode) int {
 
 	for !q.IsEmpty() {
 		// 这里不需要再写一个循环了，直接出队就可以
-		node = q.Pop()
+		node = q.Pop().(*TreeNode)
 		if node.Right != nil {
 			q.Push(node.Right)
 		}

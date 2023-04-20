@@ -1,5 +1,7 @@
 package dynamic_programing
 
+import "leetcode_golang/library"
+
 // 思路，枚举选哪个
 func lengthOfLIS(nums []int) int {
 
@@ -21,14 +23,14 @@ func lengthOfLIS(nums []int) int {
 			if nums[j] >= nums[i] {
 				continue
 			}
-			res = max(res, dfs(j)+1)
+			res = library.Max(res, dfs(j)+1)
 		}
 		return res
 	}
 
 	ans := 0
 	for i := 0; i < len(nums); i++ {
-		ans = max(ans, dfs(i))
+		ans = library.Max(ans, dfs(i))
 	}
 
 	return ans

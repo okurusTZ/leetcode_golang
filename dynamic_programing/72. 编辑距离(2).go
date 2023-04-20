@@ -1,12 +1,14 @@
 package dynamic_programing
 
+import "leetcode_golang/library"
+
 // 思路，对比两个字符串的时候
 // abc
 // bb
 // 删除操作w1的操作可以看成dfs(i-1,j)
 // 添加w1的操作，可以看作dfs(i, j-1) -> 插入一个b，相当于把w2的b去掉了
 // 替换的操作，可以看作dfs(i-1,j-1)
-func minDistance(word1 string, word2 string) int {
+func minDistance2(word1 string, word2 string) int {
 	m := len(word1)
 	n := len(word2)
 
@@ -31,16 +33,9 @@ func minDistance(word1 string, word2 string) int {
 			if word1[i] == word2[j] {
 				f[i+1][j+1] = f[i][j]
 			} else {
-				f[i+1][j+1] = min(f[i+1][j], min(f[i][j], f[i][j+1])) + 1
+				f[i+1][j+1] = library.Min(f[i+1][j], library.Min(f[i][j], f[i][j+1])) + 1
 			}
 		}
 	}
 	return f[m][n]
-}
-
-func min(a, b int) int {
-	if a < b {
-		return a
-	}
-	return b
 }

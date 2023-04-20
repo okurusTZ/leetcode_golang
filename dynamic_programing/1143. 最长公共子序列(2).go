@@ -1,6 +1,8 @@
 package dynamic_programing
 
-func longestCommonSubsequence(text1 string, text2 string) int {
+import "leetcode_golang/library"
+
+func longestCommonSubsequence2(text1 string, text2 string) int {
 	n := len(text1)
 	m := len(text2)
 
@@ -14,24 +16,10 @@ func longestCommonSubsequence(text1 string, text2 string) int {
 			if text1[i] == text2[j] {
 				f[i+1][j+1] = f[i][j] + 1
 			} else {
-				f[i+1][j+1] = max(f[i][j+1], f[i+1][j])
+				f[i+1][j+1] = library.Max(f[i][j+1], f[i+1][j])
 			}
 		}
 	}
 
 	return f[n][m]
 }
-
-func max(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
-}
-
-// func main() {
-// 	var t1 = "pmjghexybyrgzczy"
-// 	var t2 = "hafcdqbgncrcbihkd"
-
-// 	println(longestCommonSubsequence(t1, t2))
-// }

@@ -84,7 +84,7 @@ func reachableNodes2(n int, edges [][]int, restricted []int) int {
 	return ans
 }
 
-func reachableNodes(n int, edges [][]int, restricted []int) int {
+func reachableNodes3(n int, edges [][]int, restricted []int) int {
 
 	g := make([][]int, n)
 
