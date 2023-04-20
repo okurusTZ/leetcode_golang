@@ -1,4 +1,4 @@
-package main
+package leetcode_golang
 
 // 一样是回溯
 // 存在单调性
@@ -31,8 +31,4 @@ func numSubarrayProductLessThanK(nums []int, k int) int {
 	}
 	return ans
 
-}
-
-func main() {
-	println(numSubarrayProductLessThanK([]int{10, 5, 2, 6}, 3))
 }

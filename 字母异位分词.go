@@ -1,4 +1,4 @@
-package main
+package leetcode_golang
 
 import (
 	"fmt"
@@ -58,8 +58,4 @@ func groupAnagrams2(strs []string) [][]string {
 	}
 
 	return resp
-}
-
-func main() {
-	groupAnagrams2([]string{"eat", "tea", "tan", "ate", "nat", "bat"})
 }

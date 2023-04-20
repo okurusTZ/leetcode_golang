@@ -1,4 +1,6 @@
-package main
+package leetcode_golang
+
+import "leetcode_golang/library"
 
 func minSubArrayLen(target int, nums []int) int {
 	left := 0
@@ -12,7 +14,7 @@ func minSubArrayLen(target int, nums []int) int {
 
 		// 大于了，left左移
 		for sum >= target {
-			res = min(res, right-left+1)
+			res = library.Min(res, right-left+1)
 			sum -= nums[left]
 			left += 1
 		}
@@ -25,12 +27,3 @@ func minSubArrayLen(target int, nums []int) int {
 
 	return res
 }
-
-func min(a, b int) int {
-	if a > b {
-		return b
-	}
-	return a
-}
-
-func main() {}

@@ -1,8 +1,4 @@
-package main
-
-import (
-	"fmt"
-)
+package leetcode_golang
 
 // 分治思想
 func myPow(x float64, n int) float64 {
@@ -25,15 +21,4 @@ func QuickMul(x float64, n int) float64 {
 		return tmp * tmp
 	}
 	return tmp * tmp * x
-}
-
-func main() {
-	fmt.Println(myPow(0.00001, 2147483647))
-}
-
-func Abs(x int) int {
-	if x < 0 {
-		return -x
-	}
-	return x
 }

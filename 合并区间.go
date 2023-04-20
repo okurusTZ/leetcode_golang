@@ -1,4 +1,4 @@
-package main
+package leetcode_golang
 
 import (
 	"fmt"
@@ -58,10 +58,4 @@ func merge2(intervals [][]int) [][]int {
 	res = append(res, intervals[i])
 	return res
 
-}
-
-func main() {
-	fmt.Println(merge2([][]int{
-		{1, 3}, {2, 6}, {8, 10}, {15, 18},
-	}))
 }

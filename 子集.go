@@ -1,6 +1,4 @@
-package main
-
-import "fmt"
+package leetcode_golang
 
 func subsets(nums []int) (resp [][]int) {
 	// 选或者不选的问题
@@ -26,8 +24,4 @@ func subsets(nums []int) (resp [][]int) {
 	}
 	dfs(0)
 	return resp
-}
-
-func main() {
-	fmt.Println(subsets([]int{1, 2, 3}))
 }

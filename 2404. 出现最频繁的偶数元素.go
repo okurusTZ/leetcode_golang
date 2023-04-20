@@ -1,4 +1,4 @@
-package main
+package leetcode_golang
 
 func mostFrequentEven(nums []int) int {
 	hashMap := make(map[int]int)

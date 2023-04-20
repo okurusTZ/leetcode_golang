@@ -1,6 +1,7 @@
-package main
+package leetcode_golang
 
 import (
+	"leetcode_golang/library"
 	"strconv"
 	"strings"
 )
@@ -62,19 +63,5 @@ func countDaysTogether(arriveAlice string, leaveAlice string, arriveBob string, 
 	}
 
 	// 离开的天数里最小的 - 到达的天数里最大的
-	return max(0, min(dd2, dd4)-max(dd1, dd3)+1)
-}
-
-func max(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
-}
-
-func min(a, b int) int {
-	if a > b {
-		return b
-	}
-	return a
+	return library.Max(0, library.Min(dd2, dd4)-library.Max(dd1, dd3)+1)
 }

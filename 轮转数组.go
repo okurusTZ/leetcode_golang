@@ -1,4 +1,4 @@
-package main
+package leetcode_golang
 
 // 输入: nums = [1,2,3,4,5,6,7], k = 3
 // 输出: [5,6,7,1,2,3,4]
@@ -49,8 +49,4 @@ func rotate2(nums []int, k int) {
 		k--
 	}
 	copy(nums, newNums)
-}
-
-func main() {
-	rotate2([]int{1, 2, 3, 4, 5, 6, 7}, 3)
 }

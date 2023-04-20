@@ -1,4 +1,4 @@
-package main
+package leetcode_golang
 
 import "sort"
 
@@ -28,5 +28,3 @@ func containsDuplicate2(nums []int) bool {
 	}
 	return false
 }
-
-func main() {}

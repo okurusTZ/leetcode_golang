@@ -1,6 +1,4 @@
-package main
-
-import "fmt"
+package leetcode_golang
 
 // 给定两个大小分别为 m 和 n 的正序（从小到大）数组 nums1 和 nums2。请你找出并返回这两个正序数组的 中位数 。
 
@@ -56,8 +54,4 @@ func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 		return float64(head)
 	}
 	return float64(head) / float64(2)
-}
-
-func main() {
-	fmt.Println(findMedianSortedArrays([]int{1, 3}, []int{2}))
 }

@@ -1,6 +1,4 @@
-package main
-
-import "fmt"
+package leetcode_golang
 
 // 1 1 1
 // 1 2 0
@@ -26,12 +24,4 @@ func dfs(image [][]int, sr, sc, newColor, oldCocolor int) {
 	dfs(image, sr+1, sc, newColor, oldCocolor)
 	dfs(image, sr, sc+1, newColor, oldCocolor)
 	dfs(image, sr, sc-1, newColor, oldCocolor)
-}
-
-func main() {
-	fmt.Println(floodFill([][]int{
-		{1, 1, 0},
-		{1, 1, 0},
-		{1, 0, 1},
-	}, 1, 1, 2))
 }

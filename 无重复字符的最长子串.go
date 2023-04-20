@@ -1,14 +1,9 @@
-package main
+package leetcode_golang
 
 import (
 	"fmt"
+	"leetcode_golang/library"
 )
-
-// 20230320 first time
-
-func main() {
-	fmt.Println(lengthOfLongestSubstring2("pwwkew"))
-}
 
 func lengthOfLongestSubstring(s string) int {
 	var (
@@ -57,15 +52,8 @@ func lengthOfLongestSubstring2(s string) int {
 		fmt.Println(right, left, hashMap)
 
 		// 记录
-		ans = max(ans, right-left+1)
+		ans = library.Max(ans, right-left+1)
 	}
 
 	return ans
-}
-
-func max(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
 }

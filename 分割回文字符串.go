@@ -1,4 +1,4 @@
-package main
+package leetcode_golang
 
 func partition(s string) (res [][]string) {
 	// 可以看作是一个回溯问题，是否在第j的位置增加逗号
@@ -41,8 +41,4 @@ func palindrome(s string) bool {
 	}
 
 	return true
-}
-
-func main() {
-	println(palindrome("aba"))
 }
