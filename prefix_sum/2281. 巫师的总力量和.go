@@ -1,4 +1,4 @@
-package main
+package prefix_sum
 
 func totalStrength(strength []int) int {
 

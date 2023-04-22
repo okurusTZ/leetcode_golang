@@ -1,3 +1,15 @@
+### 20230422
+【100题撒花～～🎉】
+1. [303. 区域和检索 - 数组不可变](https://leetcode.cn/problems/range-sum-query-immutable/)
+2. [1218. 最长定差子序列](https://leetcode.cn/problems/longest-arithmetic-subsequence-of-given-difference/)
+3. [1027. 最长等差数列](https://leetcode.cn/problems/longest-arithmetic-subsequence/)
+4. [304. 二维区域和检索 - 矩阵不可变](https://leetcode.cn/problems/range-sum-query-2d-immutable/)
+
+### 20230421
+1. [123. 买卖股票的最佳时机 III](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iii/)
+2. [188. 买卖股票的最佳时机 IV](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iv/)
+3. [2413. 最小偶倍数](https://leetcode.cn/problems/smallest-even-multiple/)
+
 ### 20230420
 1. [309. 最佳买卖股票时机含冷冻期](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-cooldown/)
 2. [122. 买卖股票的最佳时机 II](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii/)
@@ -9,14 +21,11 @@
 3. [1043. 分隔数组以得到最大和](https://leetcode.cn/problems/partition-array-for-maximum-sum/)
 4. [300. 最长递增子序列](https://leetcode.cn/problems/longest-increasing-subsequence/)
 
-
-
 ### 20230418
 1. [513. 找树左下角的值](https://leetcode.cn/problems/find-bottom-left-tree-value/)
 2. [103. 二叉树的锯齿形层序遍历](https://leetcode.cn/problems/binary-tree-zigzag-level-order-traversal/)
 3. [102. 二叉树的层序遍历](https://leetcode.cn/problems/binary-tree-level-order-traversal/)
 4. [1026. 节点与其祖先之间的最大差值](https://leetcode.cn/problems/maximum-difference-between-node-and-ancestor/)
-
 
 ### 20230417
 1. [226. 翻转二叉树](https://leetcode.cn/problems/invert-binary-tree/)
@@ -63,7 +72,7 @@
 
 
 ### 20230412 
-1. 二叉树的最大深度 https://leetcode.cn/problems/maximum-depth-of-binary-tree/
-2. #198 打家劫舍 https://leetcode.cn/problems/house-robber/
-3. #494. 目标和 https://leetcode.cn/problems/target-sum/ 1. 递归 2. 滚动数组【优化为%2】
-4. #322. 零钱兑换 https://leetcode.cn/problems/coin-change/
+1. [二叉树的最大深度](https://leetcode.cn/problems/maximum-depth-of-binary-tree/)
+2. [198 打家劫舍](https://leetcode.cn/problems/house-robber/)
+3. [494. 目标和](https://leetcode.cn/problems/target-sum/) 1. 递归 2. 滚动数组【优化为%2】
+4. [322. 零钱兑换 ](https://leetcode.cn/problems/coin-change/)
