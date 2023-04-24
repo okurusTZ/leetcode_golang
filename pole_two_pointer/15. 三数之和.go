@@ -1,13 +1,9 @@
-package main
+package pole_two_pointer
 
 import (
 	"fmt"
 	"sort"
 )
-
-func main() {
-	fmt.Print(threeSum([]int{-2, 0, 0, 2, 2}))
-}
 
 // 双指针
 

@@ -1,4 +1,4 @@
-package main
+package slide_window
 
 func longestOnes(nums []int, k int) int {
 

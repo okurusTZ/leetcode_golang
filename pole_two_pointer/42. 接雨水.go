@@ -1,6 +1,6 @@
-package main
+package pole_two_pointer
 
-import "fmt"
+import "leetcode_golang/library"
 
 // 思路，计算每一个格子能接的水
 // 每一个格子能接的水 =  (min(left_height, right_height) - self_height) * 1
@@ -19,7 +19,7 @@ func trap(height []int) int {
 		if idx == 0 {
 			prefix_height[idx] = h
 		} else {
-			prefix_height[idx] = max(height[idx], prefix_height[idx-1])
+			prefix_height[idx] = library.Max(height[idx], prefix_height[idx-1])
 		}
 	}
 
@@ -27,35 +27,17 @@ func trap(height []int) int {
 		if i == len(height)-1 {
 			suffix_height[i] = height[i]
 		} else {
-			suffix_height[i] = max(height[i], suffix_height[i+1])
+			suffix_height[i] = library.Max(height[i], suffix_height[i+1])
 		}
 	}
 
 	// fmt.Print(prefix_height, suffix_height)
 
 	for i := 0; i < len(height); i++ {
-		if min(prefix_height[i], suffix_height[i])-height[i] < 0 {
+		if library.Min(prefix_height[i], suffix_height[i])-height[i] < 0 {
 			continue
 		}
-		res += (min(prefix_height[i], suffix_height[i]) - height[i]) * 1
+		res += (library.Min(prefix_height[i], suffix_height[i]) - height[i]) * 1
 	}
 	return res
-}
-
-func max(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
-}
-
-func min(a, b int) int {
-	if a < b {
-		return a
-	}
-	return b
-}
-
-func main() {
-	fmt.Println(trap([]int{4, 2, 0, 3, 2, 5}))
 }

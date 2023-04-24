@@ -1,4 +1,6 @@
-package main
+package pole_two_pointer
+
+import "leetcode_golang/library"
 
 func minOperations(nums []int, x int) int {
 	sum := 0
@@ -27,7 +29,7 @@ func minOperations(nums []int, x int) int {
 		}
 
 		if sum == target {
-			ans = min(ans, len(nums)-(right-left+1))
+			ans = library.Min(ans, len(nums)-(right-left+1))
 		}
 
 	}
@@ -36,15 +38,4 @@ func minOperations(nums []int, x int) int {
 		return -1
 	}
 	return ans
-}
-
-func min(a, b int) int {
-	if a < b {
-		return a
-	}
-	return b
-}
-
-func main() {
-	println(minOperations([]int{1, 1}, 3))
 }

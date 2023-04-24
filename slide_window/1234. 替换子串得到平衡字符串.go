@@ -1,4 +1,4 @@
-package main
+package slide_window
 
 // 输入：s = "QQQW"
 // 输出：2

@@ -1,6 +1,4 @@
-package main
-
-import "fmt"
+package pole_two_pointer
 
 func twoSum(numbers []int, target int) []int {
 	left := 0
@@ -19,8 +17,4 @@ func twoSum(numbers []int, target int) []int {
 		}
 	}
 	return []int{left + 1, right + 1}
-}
-
-func main() {
-	fmt.Println(twoSum([]int{-1, 0}, -1))
 }

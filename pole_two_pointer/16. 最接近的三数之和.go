@@ -1,4 +1,4 @@
-package main
+package pole_two_pointer
 
 import (
 	"math"
@@ -50,8 +50,4 @@ func abs(a int) int {
 		return -a
 	}
 	return a
-}
-
-func main() {
-	println(threeSumClosest([]int{-1, 2, 1, -4}, 1))
 }

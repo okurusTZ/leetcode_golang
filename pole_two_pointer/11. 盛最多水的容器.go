@@ -1,4 +1,6 @@
-package main
+package pole_two_pointer
+
+import "leetcode_golang/library"
 
 func maxArea(height []int) int {
 	left := 0
@@ -7,7 +9,7 @@ func maxArea(height []int) int {
 
 	for left < right {
 		// 宽
-		ans = max(ans, (right-left)*min(height[left], height[right]))
+		ans = library.Max(ans, (right-left)*library.Min(height[left], height[right]))
 
 		// 迁移短的那根，因为长的再怎么迁移，都不会更大
 		if height[left] > height[right] {
@@ -17,22 +19,4 @@ func maxArea(height []int) int {
 		}
 	}
 	return ans
-}
-
-func max(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
-}
-
-func min(a, b int) int {
-	if a < b {
-		return a
-	}
-	return b
-}
-
-func main() {
-	println(maxArea([]int{1, 8, 6, 2, 5, 4, 8, 3, 7}))
 }

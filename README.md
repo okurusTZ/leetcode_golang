@@ -1,3 +1,11 @@
+
+### 20230424
+1. [567. 字符串的排列](https://leetcode.cn/problems/permutation-in-string/)
+2. [2653. 滑动子数组的美丽值](https://leetcode.cn/problems/sliding-subarray-beauty/)
+3. [1163. 按字典序排在最后的子串](https://leetcode.cn/problems/last-substring-in-lexicographical-order/)
+4. [2652. 倍数求和](https://leetcode.cn/problems/sum-multiples/)
+5. [2651. 计算列车到站时间](https://leetcode.cn/problems/calculate-delayed-arrival-time/)
+
 ### 20230422
 【100题撒花～～🎉】
 1. [303. 区域和检索 - 数组不可变](https://leetcode.cn/problems/range-sum-query-immutable/)
