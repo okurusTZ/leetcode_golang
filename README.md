@@ -1,4 +1,11 @@
 
+### 20230425
+1. [797. 所有可能的路径](https://leetcode.cn/problems/all-paths-from-source-to-target/)
+2. [7. 整数反转](https://leetcode.cn/problems/reverse-integer/)
+3. [6. N 字形变换](https://leetcode.cn/problems/zigzag-conversion/)
+4. [2654. 使数组所有元素变成 1 的最少操作次数](https://leetcode.cn/problems/minimum-number-of-operations-to-make-all-array-elements-equal-to-1/)
+5. [2418. 按身高排序](https://leetcode.cn/problems/sort-the-people/)
+
 ### 20230424
 1. [567. 字符串的排列](https://leetcode.cn/problems/permutation-in-string/)
 2. [2653. 滑动子数组的美丽值](https://leetcode.cn/problems/sliding-subarray-beauty/)
