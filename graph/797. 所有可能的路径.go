@@ -1,5 +1,7 @@
 package graph
 
+// 这题这么做的大前提是没有环
+
 func allPathsSourceTarget(graph [][]int) [][]int {
 	// 是否访问过该节点
 	var visit = []int{}

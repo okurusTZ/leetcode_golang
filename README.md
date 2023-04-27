@@ -1,3 +1,8 @@
+### 20230427
+1. [785. 判断二分图](https://leetcode.cn/problems/is-graph-bipartite/)
+2. [210. 课程表 II](https://leetcode.cn/problems/course-schedule-ii/)
+3. [207. 课程表](https://leetcode.cn/problems/course-schedule/)
+4. [1048. 最长字符串链](https://leetcode.cn/problems/longest-string-chain/)
 
 ### 20230425
 1. [797. 所有可能的路径](https://leetcode.cn/problems/all-paths-from-source-to-target/)
