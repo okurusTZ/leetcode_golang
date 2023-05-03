@@ -25,13 +25,13 @@ func getIntersectionNode(headA, headB *ListNode) *ListNode {
 			pointerA = pointerA.Next
 		} else {
 			// A走完了
-			pointerA = pointerB
+			pointerA = headB
 		}
 		if pointerB != nil {
 			pointerB = pointerB.Next
 		} else {
 			// B走完了
-			pointerB = pointerA
+			pointerB = headA
 		}
 	}
 
