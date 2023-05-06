@@ -2,6 +2,7 @@
 * [219. 存在重复元素 II](https://leetcode.cn/problems/contains-duplicate-ii/)
 * [1512. 好数对的数目](https://leetcode.cn/problems/number-of-good-pairs/)
 * [1010. 总持续时间可被 60 整除的歌曲](https://leetcode.cn/problems/pairs-of-songs-with-total-durations-divisible-by-60/)
+* [394. 字符串解码](https://leetcode.cn/problems/decode-string/)
 
 ### 20230506
 * [152. 乘积最大子数组](https://leetcode.cn/problems/maximum-product-subarray/)
