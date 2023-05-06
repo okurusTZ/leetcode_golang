@@ -1,3 +1,40 @@
+### 20230507
+* [219. 存在重复元素 II](https://leetcode.cn/problems/contains-duplicate-ii/)
+* [1512. 好数对的数目](https://leetcode.cn/problems/number-of-good-pairs/)
+* [1010. 总持续时间可被 60 整除的歌曲](https://leetcode.cn/problems/pairs-of-songs-with-total-durations-divisible-by-60/)
+
+### 20230506
+* [152. 乘积最大子数组](https://leetcode.cn/problems/maximum-product-subarray/)
+* [139. 单词拆分](https://leetcode.cn/problems/word-break/)
+* [155. 最小栈](https://leetcode.cn/problems/min-stack/)
+* [763. 划分字母区间](https://leetcode.cn/problems/partition-labels/)
+* [19. 删除链表的倒数第 N 个结点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/)
+
+### 20230505
+* [79. 单词搜索](https://leetcode.cn/problems/word-search/)
+* [22. 括号生成](https://leetcode.cn/problems/generate-parentheses/)
+* [39. 组合总和](https://leetcode.cn/problems/combination-sum/)
+* [1419. 数青蛙](https://leetcode.cn/problems/minimum-number-of-frogs-croaking/)
+* [2432. 处理用时最长的那个任务的员工](https://leetcode.cn/problems/the-employee-that-worked-on-the-longest-task/)
+
+### 20230504
+* [279. 完全平方数](https://leetcode.cn/problems/perfect-squares/)
+* [70. 爬楼梯](https://leetcode.cn/problems/climbing-stairs/)
+* [75. 颜色分类](https://leetcode.cn/problems/sort-colors/)
+* [169. 多数元素](https://leetcode.cn/problems/majority-element/)
+* [136. 只出现一次的数字](https://leetcode.cn/problems/single-number/)
+* [107. 二叉树的层序遍历 II](https://leetcode.cn/problems/binary-tree-level-order-traversal-ii/)
+* [面试题 17.22. 单词转换](https://leetcode.cn/problems/word-transformer-lcci/)
+* [2106. 摘水果](https://leetcode.cn/problems/maximum-fruits-harvested-after-at-most-k-steps/)
+
+### 20230503
+* [208. 实现 Trie (前缀树)](https://leetcode.cn/problems/implement-trie-prefix-tree/)
+* [994. 腐烂的橘子](https://leetcode.cn/problems/rotting-oranges/)
+* [45. 跳跃游戏 II](https://leetcode.cn/problems/jump-game-ii/)
+* [55. 跳跃游戏](https://leetcode.cn/problems/jump-game/)
+* [80. 删除有序数组中的重复项 II](https://leetcode.cn/problems/remove-duplicates-from-sorted-array-ii/)
+* [26. 删除有序数组中的重复项](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/)
+* [27. 移除元素](https://leetcode.cn/problems/remove-element/)
 
 ### 20230502
 * [1003. 检查替换后的词是否有效]()
