@@ -1,4 +1,4 @@
-package main
+package linked_list
 
 // 快慢指针
 // 慢指针每次走一步，如果有环，一定会进去

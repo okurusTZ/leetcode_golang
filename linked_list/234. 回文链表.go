@@ -1,4 +1,4 @@
-package main
+package linked_list
 
 // 思路： 找到中点之后反转后半部分，走完前半部value都相同就可以
 // why -> 如果后半部分比前半部分长，多出来的一定是中点（奇数个），可以忽略

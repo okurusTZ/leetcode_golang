@@ -1,4 +1,4 @@
-package main
+package linked_list
 
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	reversedL1, reversedL2 := l1, l2

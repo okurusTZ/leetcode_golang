@@ -1,4 +1,4 @@
-package main
+package linked_list
 
 func reorderList(head *ListNode) {
 	// before l1 -> l2 -> l3 .... -> ln-1 -> ln

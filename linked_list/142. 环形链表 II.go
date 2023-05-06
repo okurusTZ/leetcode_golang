@@ -1,4 +1,4 @@
-package main
+package linked_list
 
 // 找到链表成环的部分
 func detectCycle(head *ListNode) *ListNode {
